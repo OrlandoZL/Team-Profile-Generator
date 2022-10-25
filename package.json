@@ -1,0 +1,22 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates a short description on a team member",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrlandoZL/Team-Profile-Generator.git"
+  },
+  "author": "OrlandoZL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrlandoZL/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/OrlandoZL/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}

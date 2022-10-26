@@ -1,8 +1,6 @@
 const inquirer = require('inquirer');
 const fs =  require('fs');
 
-
-
 const workGroup = [];
 
 function startUp() {
@@ -13,14 +11,6 @@ function startUp() {
             type: 'confirm',
         },
     ])
-    .then((res, err) => {
-        if (err) console.error(err);
-        if (res.startApp) {
-            addManager();
-        } else {
-            process.exit();
-        }
-    });
 }
 
 function addManager() {
